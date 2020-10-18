@@ -3,8 +3,7 @@ console.log("hello");
 let matrix1 = [[1, 4], [2, 5], [3, 6]]; // each sub array is a row 
 let matrix2 = [[2, 0], [0, 2]]; // identity matrix
 let matrix3 = [[],[],[]];
-console.table(matrix1);
-console.table(matrix2);
+
 
 let product = 0;
 let sum = 0;
@@ -30,6 +29,8 @@ for (let i=0; i<matrix1.length; i++){
         sum = 0;
     }
 }
+console.table(matrix1);
+console.table(matrix2);
 console.table(matrix3);
     
         
